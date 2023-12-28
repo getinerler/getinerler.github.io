@@ -5,8 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
-	<link rel="stylesheet" type="text/html" href="{{site.url}}/assets/font-awesome-4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/html" href="{{site.url}}/assets/css/style.css">
+	<link rel="stylesheet" type="text/html" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/html" href="/assets/css/style.css">
 	<title>{{page.title}}</title>
 </head>
 
@@ -17,11 +17,11 @@
 				<div class="linksWrap">
 					<a target="_blank" href="https://github.com/getinerler/" class="fa fa-github"></a>
 					<a target="_blank" href="https://medium.com/@getinerler">
-						<img src="{{site.url}}/assets/images/medium.svg">
+						<img src="/assets/images/medium.svg">
 					</a>
 				</div>
 				<div class="profilePhotoWrap">
-					<a href="/tr"><img id="profilePhoto" src="{{site.url}}/assets/images/guven.jpeg"></a>
+					<a href="/tr"><img id="profilePhoto" src="/assets/images/guven.jpeg"></a>
 				</div>
 				<div class="nameWrap">
 					<a href="/tr">
@@ -37,7 +37,7 @@
 					{% if page.url == item.href %}
 					<li><a class="selected-root" href="#">{{item.name}}</a></li>
 					{% else %}
-					<li><a class="root" href="{{site.url}}{{item.href}}">{{item.name}}</a></li>
+					<li><a class="root" href="{{item.href}}">{{item.name}}</a></li>
 					{% endif %}
 					{% endfor %}
 				</ul>
@@ -49,8 +49,8 @@
 			</div>
 		</div>
 		<div id="languages">
-			<span><a><img src="{{site.url}}/assets/images/flags/turkish.png" title="Turkish"></a></span>
-			<span><a href="/"><img src="{{site.url}}/assets/images/flags/english-bw.png" title="English"></a></span>
+			<span><a><img src="/assets/images/flags/turkish.png" title="Turkish"></a></span>
+			<span><a href="/"><img src="/assets/images/flags/english-bw.png" title="English"></a></span>
 		</div>
 	</div>
 </body>
