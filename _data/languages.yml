@@ -1,0 +1,9 @@
+list:
+
+- name: English
+  short: en
+  url: /
+
+- name: Turkish
+  short: tr
+  url: /tr/

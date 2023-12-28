@@ -1,0 +1,6 @@
+
+title: My Personal Website
+email: getinerler@gmail.com
+baseurl: "/" 
+url: "getinerler.github.io" 
+include: ['_pages']

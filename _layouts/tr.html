@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href='https://fonts.googleapis.com/css?family=EB Garamond' rel='stylesheet'>
+	<link rel="stylesheet" type="text/html" href="{{site.url}}/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/html" href="{{site.url}}/assets/css/style.css">
+	<title>{{page.title}}</title>
+</head>
+
+<body>
+	<div id="container">
+		<div id="navWrap">
+			<div id="nav">
+				<div class="linksWrap">
+					<a target="_blank" href="https://github.com/getinerler/" class="fa fa-github"></a>
+					<a target="_blank" href="https://medium.com/@getinerler">
+						<img src="{{site.url}}/assets/images/medium.svg">
+					</a>
+				</div>
+				<div class="profilePhotoWrap">
+					<a href="/tr"><img id="profilePhoto" src="{{site.url}}/assets/images/guven.jpeg"></a>
+				</div>
+				<div class="nameWrap">
+					<a href="/tr">
+						<h3 style="text-align: center;">Güven Çetinerler</h3>
+					</a>
+				</div>
+				<h6 style="text-align: center;">
+					<span class="fa fa-map-marker"></span>&nbsp;&nbsp;
+					<span>İstanbul, Türkiye</span>
+				</h6>
+				<ul class="navItems">
+					{% for item in site.data.nav.list_tr %}
+					{% if page.url == item.href %}
+					<li><a class="selected-root" href="#">{{item.name}}</a></li>
+					{% else %}
+					<li><a class="root" href="{{site.url}}{{item.href}}">{{item.name}}</a></li>
+					{% endif %}
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+		<div id="contentWrap">
+			<div id="content">
+				{{content}}
+			</div>
+		</div>
+		<div id="languages">
+			<span><a><img src="{{site.url}}/assets/images/flags/turkish.png" title="Turkish"></a></span>
+			<span><a href="/"><img src="{{site.url}}/assets/images/flags/english-bw.png" title="English"></a></span>
+		</div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+list:
+  
+- name: About
+  href: /about/
+
+- name: Resume
+  href: /resume/
+
+- name: Contact
+  href: /contact/
+
+
+list_tr:
+  
+- name: Hakkında
+  href: /tr/hakkinda/
+
+- name: Özgeçmiş
+  href: /tr/ozgecmis/
+
+- name: İletişim
+  href: /tr/iletisim/

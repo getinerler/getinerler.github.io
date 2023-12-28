@@ -1,0 +1,61 @@
+list:
+  
+- name: +90 530 153 30 20
+  icontype: logo
+  icon: fa fa-phone
+  href: tel:+905301533020
+  color: jetblack
+
+- name: getinerler@gmail.com
+  icontype: img
+  icon: gmail.png
+  href: mailto:getinerler@gmail.com
+  color: BB001B
+
+- name: LinkedIn
+  icontype: logo
+  icon: fa fa-linkedin
+  href: https://www.linkedin.com/in/getinerler/
+  color: 0072b1
+
+- name: Github
+  icontype: logo
+  icon: fa fa-github
+  href: https://github.com/getinerler/
+  color: jetblack
+
+- name: Instagram
+  icontype: img
+  icon: instagram.png
+  href: https://www.instagram.com/getinerler/
+  color: jetblack
+
+- name: Twitter
+  icontype: logo
+  icon: fa fa-twitter
+  href: https://twitter.com/getinerler/
+  color: 1DA1F2
+
+- name: Medium
+  icontype: img
+  icon: medium.svg
+  href: https://medium.com/@getinerler
+  color: jetblack
+
+- name: Kaggle
+  icontype: img
+  icon: kaggle.png
+  href: https://www.kaggle.com/getinerler
+  color: jetblack
+
+- name: Letterboxd
+  icontype: img
+  icon: letterboxd.png
+  href: https://letterboxd.com/getinerler/
+  color: jetblack
+
+- name: Bluesky
+  icontype: img
+  icon: bluesky.png
+  href: https://bsky.app/profile/getinerler.bsky.social
+  color: jetblack
