@@ -16,7 +16,7 @@ permalink: /tr/iletisim/
                 {% if item.icontype == 'logo' %}
                     <i style="color:#{{item.color}}" class="{{item.icon}}"></i>
                 {% else %}
-                    <img style="width:18px" src="{{site.url}}/assets/images/{{item.icon}}"/>
+                    <img style="width:18px" src="/assets/images/{{item.icon}}"/>
                 {% endif %}
                 &nbsp;&nbsp;&nbsp;
                 {{item.name}}
